@@ -35,7 +35,6 @@ public class Client {
     @EventListener(ApplicationReadyEvent.class)
     public void startup() throws InterruptedException {
         this.greet(this.name);
-        System.exit(0);
     }
 
     public void greet(String name) throws InterruptedException {

@@ -7,7 +7,7 @@ plugins {
 
 group = 'com.example'
 version = '0.0.1-SNAPSHOT'
-sourceCompatibility = '13'
+sourceCompatibility = '11'
 
 def grpcVersion = '1.26.0' // CURRENT_GRPC_VERSION
 def protobufVersion = '3.11.0'
